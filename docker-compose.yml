@@ -13,6 +13,7 @@ services:
     ports:
       - "80:80"
       - "443:443"
+      - "5555:5555"
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
       - traefik_data:/etc/traefik/acme:z
